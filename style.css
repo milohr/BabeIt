@@ -1,4 +1,7 @@
-  
+  *
+{
+    font-family:helvetica;
+}
 body
 {
    
@@ -6,14 +9,13 @@ body
    /*font:15px/1.5 Arial,helvetica, sans-serif*/
    margin:0;
    padding:0;
-   background-color:#575757;
    
-   
+
 }
 
 header
 {
-    
+    background-color:#575757;
     width:100%;
    height:auto;
     
@@ -23,6 +25,8 @@ header
 header img
 {
     width:100%;
+    /*position:fixed;
+    z-index: -1;*/
   
 }
 
@@ -31,10 +35,12 @@ header img
 {
     display: inline-flex;
     width:100%;
-    height: inherit;
-    background-color:pink;
-    border: 10px solid white;
-    margin:10px;
+    height: auto;
+    background-color:white;
+    border-top:2px solid #f85b79;
+     border-bottom:2px solid #f85b79;
+   margin:0;
+    
   
    
 }
@@ -43,9 +49,27 @@ header img
 {
     width:auto;
     height: auto;
-    border:3px solid magenta;
+    margin:20px;
+    /*border:3px solid magenta;*/
     background:white;
        
+}
+
+ul, li, p li
+{
+   
+  list-style-type: none;
+    text-align: left;
+
+}
+
+.icon
+{
+    max-width: 16px;
+    max-height: 16px;
+    position: relative;
+    top:2;
+    padding-right:10px;
 }
 
 
@@ -54,23 +78,41 @@ header img
 {
     width:100%;
     height: auto;
-    background-color: aqua;
-    border:3px solid black;
+    
+    background-color: white;
+    /*border:3px solid black;*/
 }
 
 #info #sub_info #sub_info1
 {
     
-    
    
-    background: yellow;
+    
+    height: 49%;
+    background: white;
     
     
+}
+#info #sub_info #sub_info1 #desc
+{
+    margin-right: 10%;
+}
+
+
+p, h1,h2,h3
+{
+    text-align: justify;
+     line-height:1;
+    width:100%;
 }
 
 #info #sub_info #sub_info2
 {
- 
+    display:inline-flex;
+  
+ padding:0;
+    width:100%;
+    
     
     background: magenta;    
     
@@ -78,16 +120,37 @@ header img
 
 #info #sub_info #sub_info2 #sub_info2_info
 {
+    width:100%;
+    height: auto;
  
-    background: green;    
+    background: white;    
     
 }
 #info #sub_info #sub_info2 #sub_info2_img
 {
-   
-    background-color: brown;    
+    width:auto;
+    height: auto;
+    float:left;
+   padding-right:20px;
+    background-color: white;    
     
 }
 
+#sec_2
+{
+    width: 100%;
+    height: 100%;
+       background:url("img/albums_view.png") no-repeat center center;
+border-bottom:1px solid black;
+    
+    background-color: #575757;
+}
 
+#sec_3
+{
+    width: 100%;
+    height: 100%;
+       background:url("img/albums_view.png") no-repeat center center;
+border-bottom:1px solid black;
+}
 
