@@ -56,7 +56,7 @@ header img
     align-items: center;
     width:100%;   
     
-
+ background-size:contain;
 background:white;
         
      border-bottom:2px solid #f85b79;
@@ -65,6 +65,11 @@ background:white;
     
   
    
+}
+
+img
+{
+    background-size:cover; 
 }
 
 #info #sub_info #sub_info1 #desc #imgs
@@ -76,13 +81,16 @@ background:white;
     
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2NkQAXGjEh8YyD7LEwAzAFJggTgHJAAAE+uAzjGgU3wAAAAAElFTkSuQmCC")repeat;
     background-color: #575757;
+    
 }
 #info #mini_img
 {
-    width:auto;
-    height: auto;
-    margin:20px;
-    /*border:3px solid magenta;*/
+     width:100%;
+    height: 100%;
+  
+  
+    background:url("img/showoff.gif") no-repeat center center;
+    
           
 }
 
@@ -265,39 +273,65 @@ p, h1,h2,h3
 border-bottom:1px solid black;
     
     background-color: #575757;
+     background-size:contain;
 }
 
 
 #sec_2 #subsec2_1
 {
      width: 100%; 
-    padding-top: 5%;
-    padding-bottom: 5%;
+   
     display: inline-flex;
      justify-content: center; /* align horizontal */
     align-items: center;
+    
    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2NkQAXGjEh8YyD7LEwAzAFJggTgHJAAAE+uAzjGgU3wAAAAAElFTkSuQmCC")repeat;
     background-color: #575757;
+z-index: -1;
     
 }
-#sec_2 #nextBtn img
+
+
+
+#sec_2 #subsec2_1 #babeImg
 {
+  
+   
+    width:100%;
+    height: 100%;
+  
+  
+    background:url("img/albums_view.png") no-repeat center center;
     
-    width: 48px;
-    margin: 100px;
-    height: auto;    
-    background-color:white;
-    border-radius: 100%;
-    opacity: .4; 
 }
 
 #sec_3
 {
     width: 100%;
     height: 100%;
+     display: inline-flex;
+     justify-content: center; /* align horizontal */
+    align-items: center;
        background:url("img/kde.png") no-repeat center center;
     
     background-size:contain;
 border-bottom:1px solid black;
 }
 
+#sec_3 #subsec3_1
+{
+   width: 40%;
+    height: 30%;
+     background:white;
+   padding:10px;
+    opacity: .3;
+    border-radius: 5px;
+}
+
+#sec_3 #subsec3_1 h2
+{
+   text-align: center;
+   height: 100%;
+    
+    
+}
