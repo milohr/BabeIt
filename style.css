@@ -367,7 +367,7 @@ z-index: -1;
     max-height: 1080px;
      display: inline-flex;
    
-       background:url("img/kde_desktop.png") no-repeat center center;
+       background:url("img/kde.png") no-repeat center center;
     
     background-size:contain;
       justify-content: center; /* align horizontal */
